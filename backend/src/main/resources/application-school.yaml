@@ -1,0 +1,5 @@
+spring:
+  datasource:
+    url: jdbc:sqlserver://localhost:1433;databaseName=guetosl;encrypt=true;trustServerCertificate=true
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
