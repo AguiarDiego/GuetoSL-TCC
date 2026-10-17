@@ -17,7 +17,8 @@ export default function Home() {
 
     async function carregarProdutos() {
       try {
-       const produtosDoBanco = await listarProdutos();
+       // const produtosDoBanco = await listarProdutos();
+      setProducts(staticProducts);
 
         if (produtosDoBanco.length === 0) {
           setProducts(staticProducts);
